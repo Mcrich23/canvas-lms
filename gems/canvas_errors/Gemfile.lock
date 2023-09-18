@@ -117,7 +117,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.1)
-    sorbet-runtime (0.5.10965)
+    sorbet-runtime (0.5.11026)
     thor (1.2.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)

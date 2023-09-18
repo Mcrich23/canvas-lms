@@ -60,46 +60,6 @@ PATH
       utf8_cleaner
 
 PATH
-  remote: gems/plugins/academic_benchmark
-  specs:
-    academic_benchmark (1.1.0)
-      academic_benchmarks (~> 1.1.0)
-      railties (>= 3.2)
-
-PATH
-  remote: gems/plugins/account_reports
-  specs:
-    account_reports (1.1.0)
-      railties (>= 3.2)
-
-PATH
-  remote: gems/plugins/moodle_importer
-  specs:
-    moodle_importer (1.0.0)
-      moodle2cc (= 0.2.41)
-      rails (>= 3.2)
-
-PATH
-  remote: gems/plugins/qti_exporter
-  specs:
-    qti_exporter (1.0.0)
-      rails (>= 3.2)
-
-PATH
-  remote: gems/plugins/respondus_soap_endpoint
-  specs:
-    respondus_soap_endpoint (1.1.0)
-      rails (>= 3.2)
-      soap4r-middleware (= 0.8.7)
-      soap4r-ruby1.9 (= 2.0.5)
-
-PATH
-  remote: gems/plugins/simply_versioned
-  specs:
-    simply_versioned (1.0.0)
-      activerecord (>= 3.2)
-
-PATH
   remote: gems/rubocop-canvas
   specs:
     rubocop-canvas (1.0.0)
@@ -272,6 +232,46 @@ PATH
     workflow (0.0.1)
       activesupport (>= 3.2)
 
+PATH
+  remote: /workspaces/canvas-lms/gems/plugins/academic_benchmark
+  specs:
+    academic_benchmark (1.1.0)
+      academic_benchmarks (~> 1.1.0)
+      railties (>= 3.2)
+
+PATH
+  remote: /workspaces/canvas-lms/gems/plugins/account_reports
+  specs:
+    account_reports (1.1.0)
+      railties (>= 3.2)
+
+PATH
+  remote: /workspaces/canvas-lms/gems/plugins/moodle_importer
+  specs:
+    moodle_importer (1.0.0)
+      moodle2cc (= 0.2.41)
+      rails (>= 3.2)
+
+PATH
+  remote: /workspaces/canvas-lms/gems/plugins/qti_exporter
+  specs:
+    qti_exporter (1.0.0)
+      rails (>= 3.2)
+
+PATH
+  remote: /workspaces/canvas-lms/gems/plugins/respondus_soap_endpoint
+  specs:
+    respondus_soap_endpoint (1.1.0)
+      rails (>= 3.2)
+      soap4r-middleware (= 0.8.7)
+      soap4r-ruby1.9 (= 2.0.5)
+
+PATH
+  remote: /workspaces/canvas-lms/gems/plugins/simply_versioned
+  specs:
+    simply_versioned (1.0.0)
+      activerecord (>= 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -378,14 +378,14 @@ GEM
       request_store (~> 1.0)
     awesome_print (1.9.2)
     aws-eventstream (1.2.0)
-    aws-partitions (1.811.0)
+    aws-partitions (1.824.0)
     aws-sdk-applicationautoscaling (1.75.0)
       aws-sdk-core (~> 3, >= 3.177.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-autoscaling (1.97.0)
       aws-sdk-core (~> 3, >= 3.177.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-core (3.181.0)
+    aws-sdk-core (3.181.1)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
       aws-sigv4 (~> 1.5)
@@ -958,7 +958,7 @@ GEM
     rubocop-inst (1.0.2)
       rubocop (~> 1.50)
       rubocop-performance (~> 1.17)
-    rubocop-performance (1.19.0)
+    rubocop-performance (1.19.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     rubocop-rails (2.21.1)
@@ -1034,7 +1034,7 @@ GEM
     soap4r-middleware (0.8.7)
       soap4r-ruby1.9 (= 2.0.5)
     soap4r-ruby1.9 (2.0.5)
-    sorbet-runtime (0.5.10965)
+    sorbet-runtime (0.5.11026)
     spring (4.1.1)
     spring-commands-parallel-rspec (1.1.0)
       spring (>= 0.9.1)
@@ -1042,12 +1042,12 @@ GEM
       spring (>= 0.9.1)
     spring-commands-rubocop (0.4.0)
       spring (>= 1.0)
-    sqlite3 (1.6.5)
+    sqlite3 (1.6.6)
       mini_portile2 (~> 2.8.0)
-    sqlite3 (1.6.5-aarch64-linux)
-    sqlite3 (1.6.5-arm64-darwin)
-    sqlite3 (1.6.5-x86_64-darwin)
-    sqlite3 (1.6.5-x86_64-linux)
+    sqlite3 (1.6.6-aarch64-linux)
+    sqlite3 (1.6.6-arm64-darwin)
+    sqlite3 (1.6.6-x86_64-darwin)
+    sqlite3 (1.6.6-x86_64-linux)
     stackprof (0.2.25)
     statsd-ruby (1.5.0)
     stormbreaker (1.0.0)

@@ -181,7 +181,7 @@ GEM
     ruby2_keywords (0.0.5)
     sentry-ruby (5.11.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-    sorbet-runtime (0.5.10965)
+    sorbet-runtime (0.5.11026)
     statsd-ruby (1.5.0)
     thor (1.2.2)
     timecop (0.9.8)
